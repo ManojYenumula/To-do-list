@@ -1,0 +1,65 @@
+body{
+  background-color: hsl(0, 0%, 17%);
+  color: white;
+  
+  text-align: center;
+}
+ol{
+  list-style: none;
+}
+
+li{
+  background-color: hsl(0, 0%, 91%);
+  color: black;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 5px;
+ 
+  border-radius: 5px;
+  align-items: center;
+}
+.tasks{
+  flex: 1;
+}
+button{
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  border: none;
+}
+input[type="text"]{
+  padding: 10px;
+  
+  border-radius: 5px;
+  width: 250px;
+}
+h2{
+  font-size: 2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.deletebutton{
+  background-color: hsl(0, 83%, 58%);
+  padding: 10px;
+  margin: 5px;
+}
+.deletebutton:hover{
+  background-color: hsla(0, 100%, 49%, 0.973);
+}
+.upbutton{
+  background-color: hsl(166, 77%, 31%);
+  padding: 10px;
+  margin: 5px;
+}
+.upbutton:hover{
+  background-color: hsla(152, 85%, 43%, 0.973);
+}
+.addtask{
+  background-color: hsl(244, 72%, 61%);
+}
+.addtask:hover{
+  background-color: hsla(241, 100%, 37%, 0.973);
+}
